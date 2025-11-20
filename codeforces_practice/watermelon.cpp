@@ -1,14 +1,10 @@
-//problem_4A
-
 #include <iostream>
-
 int main() {
     int w;
-    std::cout << "Enter weight of watermelon: " << std::endl;
     std::cin >> w;
-    if (w % 2 == 0 && w > 2)
-        std::cout << "YES";
+    if (w > 2 && w % 2 == 0)
+        std::cout << "YES\n";
     else
-        std::cout << "NO";
+        std::cout << "NO\n";
     return 0;
 }
